@@ -1,0 +1,111 @@
+.login{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100%;
+    max-width: 150px;
+    max-height: 150px;
+   
+
+}
+.login_container{
+    flex-direction: column;
+    position: static;
+    align-items: center;
+    width: 300px;
+    height: fit-content;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin: 0 auto;
+    border-color: #DDDDDD;
+    border: 0.5px solid #DDDDDD;
+    padding-left: 25px;
+  
+}
+
+.login_container > button{
+    align-items: center;
+    /* display: flex; */
+}
+.login_signinButton{
+    background-color: #FFD814;
+    border-color: #FCD200;
+    /* border-color: #a88734 #9c7e31 #846a29 !important; */
+    border-radius: 8px;
+    width: 100%;
+    height: 30px;
+    padding: auto;
+    box-shadow:  1px 5px 0 rgba(213, 217, 217, .5);
+    border-width: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+
+}
+.login_signinRegister{
+    background-color: rgb(254, 254, 254);
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+
+#createAccount{
+    margin-top: 30px;
+  }
+  
+#newAccount{
+    background: linear-gradient(#f6f7f9, #e7e9ec);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width:315px;
+    height:33px;
+    font-size:14px;
+    border: 0.5px solid #aaaaaa;
+    border-radius:3px;
+  }
+  
+#newAccount:hover{
+    background: linear-gradient(#f5f6f8, #d9dce1);
+  }
+
+h2 {
+    color: rgb(134, 134, 134);
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 11.5px;
+    width: 315px;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    margin-bottom: 5px;
+ }
+ 
+ h2 span {
+     background:#fff;
+     padding:0 10px;
+ }
+ .login_mail{
+    margin-top: 10px;
+
+ }
+ .login_pass{
+    margin-top: 10px;
+    margin-bottom: -10px;
+ }
+ .mail_text{
+    width: 100%;
+ }
+ .pass_text{
+    width: 100%;
+ }
